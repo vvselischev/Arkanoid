@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinball", "Pinball\Pinball\Pinball.csproj", "{542034F8-FB48-4BEF-B16B-AA1B9CE67FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinballContent", "Pinball\PinballContent\PinballContent.contentproj", "{6D0E0EC0-313E-45C2-8CE4-9027BC8DCB2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542034F8-FB48-4BEF-B16B-AA1B9CE67FAA}.Debug|x86.ActiveCfg = Debug|x86
+		{542034F8-FB48-4BEF-B16B-AA1B9CE67FAA}.Debug|x86.Build.0 = Debug|x86
+		{542034F8-FB48-4BEF-B16B-AA1B9CE67FAA}.Release|x86.ActiveCfg = Release|x86
+		{542034F8-FB48-4BEF-B16B-AA1B9CE67FAA}.Release|x86.Build.0 = Release|x86
+		{6D0E0EC0-313E-45C2-8CE4-9027BC8DCB2C}.Debug|x86.ActiveCfg = Debug|x86
+		{6D0E0EC0-313E-45C2-8CE4-9027BC8DCB2C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

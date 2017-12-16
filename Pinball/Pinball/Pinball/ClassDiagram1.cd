@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pinball.AbstractBrickFactory" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAA=</HashCode>
+      <FileName>AbstractBrickFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.AddBallBonus">
+    <Position X="2.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddBallBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Ball" Collapsed="true">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAABAAAAARAEAAAQAAAAAAAAABA=</HashCode>
+      <FileName>Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BallManager" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAQAAABAAAIgAAQAhABAAAAAAAFCAAAAQAA=</HashCode>
+      <FileName>BallManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Board&lt;T&gt;" Collapsed="true">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAABAAAgAAACIAABAAAAAEAACAAAAAEAAAAgAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Body" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAggAAAIAAAAQAIAAEAgCQAAIAkAAAAAA=</HashCode>
+      <FileName>Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BonusBrick" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>BonusBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BonusBrickFactory" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQFAAgAAECAAQAAAAACAAAABABBIEIAgQEACAAAAEA=</HashCode>
+      <FileName>BonusBrickFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BonusMethod">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Bound" Collapsed="true">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAAAAgAAAAABAAAIAQAMAAAAAAAAAAQAAAQ=</HashCode>
+      <FileName>Bound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Brick" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAggAAAAJAAAAAQAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Brick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pinball.Game1" Collapsed="true">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAkEAAAABCAyAABAAIAAAgAAAAAAgAAAACQAAAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.GameManager" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAQAAAAAABAAAAIBAIIAAIABABAAAAXIAACQCBASgA=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.LevelManager&lt;T&gt;" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAESAAEAAQAAAABAFEAAABIAAAAAAEAAA=</HashCode>
+      <FileName>LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.MyContentManager" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAQAAAAAAAAAABQBAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>MyContentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.PinballLevel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAACAAAgAIAAAAAAAAAAAAAAAQIAACECAAAgA=</HashCode>
+      <FileName>PinballLevel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Pinball.PinballLevelCreator" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQggIAAAAAQAAAAAAAAAABAAAAAAA0QQCAEAAABA=</HashCode>
+      <FileName>PinballLevelCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Program" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.SimpleBrick" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SimpleBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.SimpleBrickFactory" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAABABAAEAAAAAAAAAAAAg=</HashCode>
+      <FileName>SimpleBrickFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Sprite" Collapsed="true">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAwBAAgoAAAAECAAwAAgAEBAAAAEACAQAAABA=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Transform" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAEAQAIAIAACAAAIAQBEAAQgAAAAABA=</HashCode>
+      <FileName>Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.UInterface" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAEBAAgAAAAAAAgAAAABAAAAAAAAAQAACAAA=</HashCode>
+      <FileName>UInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.PlayInterface" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAABwgACAAIAEAAQAAAAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>PlayInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.Bonus">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BonusManager" Collapsed="true">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQADAAAAAAAAgAQAAAAAAIABABAAAAIAAAAAAACAAA=</HashCode>
+      <FileName>BonusManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.ExtendBoundBonus">
+    <Position X="6.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAQ=</HashCode>
+      <FileName>ExtendBoundBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.FallingBonus">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAgBAAAABAAAAAQAAAgAAAAIAAABAAAA=</HashCode>
+      <FileName>FallingBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.ScoreManager" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAoAAAIJABAAgABgAAAAAAAAAA=</HashCode>
+      <FileName>ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.RemoveLifeBonus">
+    <Position X="12.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RemoveLifeBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.AddLifeBonus" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddLifeBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.AddScoreBonus" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>AddScoreBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.BoundModifier" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAAAAAAAAAAAAAAAAAAgAAAABCAAABAAQ=</HashCode>
+      <FileName>BoundModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.FileManager" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAgAAAAQAAAAAAAAAABABAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.GameOverInterface" Collapsed="true">
+    <Position X="24.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAIAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameOverInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.GameOverState" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAQAA=</HashCode>
+      <FileName>GameOverState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.GameState" Collapsed="true">
+    <Position X="19.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.LifeManager" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAABBAJAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>LifeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.PlayState" Collapsed="true">
+    <Position X="19.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAABAAAAABgAABAAIAAIAAAAAAAAEAAAAAABAQAA=</HashCode>
+      <FileName>PlayState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.ReduceBoundBonus" Collapsed="true">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAQ=</HashCode>
+      <FileName>ReduceBoundBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.StartGameInterface" Collapsed="true">
+    <Position X="16" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartGameInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.StartGameState" Collapsed="true">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAgAAAAAAAAAAAAAAAAAAACBAAAAAAAA=</HashCode>
+      <FileName>StartGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pinball.StateManager" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAACAABABAAAAIAAACAAAAAAA=</HashCode>
+      <FileName>StateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pinball.ILevel" Collapsed="true">
+    <Position X="23.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILevel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Pinball.IMyDrawable" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMyDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Pinball.BonusTypes" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAIAAAAAAEAAAAAASAABAAAAAAA=</HashCode>
+      <FileName>BonusBrickFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Pinball.VoidHandler" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
